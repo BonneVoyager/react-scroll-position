@@ -1,0 +1,37 @@
+{
+  "name": "react-scroll-position",
+  "version": "1.0.0",
+  "description": "Remember and restore React scroll position for the nodes.",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bonnevoyager/react-scroll-position.git"
+  },
+  "keywords": [
+    "react",
+    "scroll",
+    "scroll-position"
+  ],
+  "author": "Krzysztof Gutkowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bonnevoyager/react-scroll-position/issues"
+  },
+  "homepage": "https://github.com/bonnevoyager/react-scroll-position#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "cross-env": "^6.0.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "build:prod": "cross-env NODE_ENV=production yarn build"
+  }
+}
