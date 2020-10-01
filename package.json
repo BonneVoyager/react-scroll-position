@@ -1,6 +1,6 @@
 {
   "name": "react-scroll-position",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Remember and restore React scroll position for the nodes.",
   "main": "dist/index.js",
   "types": "index.d.ts",
