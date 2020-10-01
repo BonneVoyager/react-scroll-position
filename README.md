@@ -14,18 +14,16 @@ npm install --save react-scroll-position
 import React, { Component} from 'react'
 import ScrollPosition from 'react-scroll-position'
 
-const RememberMyScroll = ({ children }) => {
-  return (
-    <ScrollPosition scrollKey="my-scroll">
-      {
-        ({ attachScrollNode, getScroll, getScrollNode, setScroll }) =>
+const RememberMyScroll = ({ children }) => (
+  <ScrollPosition scrollKey="my-scroll">
+    {
+      ({ attachScrollNode, getScroll, getScrollNode, setScroll }) =>
         <div ref={attachScrollNode}>
           {children}
         </div>
-      }
-    </ScrollPosition>
-  )
-}
+    }
+  </ScrollPosition>
+)
 ```
 
 ScrollPosition HOC uses children as function and returns functions which can be used to manipulate the scrolling.

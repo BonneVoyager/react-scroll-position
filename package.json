@@ -21,11 +21,11 @@
   "homepage": "https://github.com/bonnevoyager/react-scroll-position#readme",
   "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.7.0",
-    "@babel/core": "^7.7.2",
-    "@babel/preset-env": "^7.7.1",
-    "@babel/preset-react": "^7.7.0",
-    "cross-env": "^6.0.3"
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "cross-env": "^7.0.2"
   },
   "peerDependencies": {
     "react": "^16.8.0"
